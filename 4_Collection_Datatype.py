@@ -1,4 +1,5 @@
 '''
+
 1. Python Collection Data Types
 -------------------------------
     ✨List [ ]
@@ -217,5 +218,6 @@ Float Input float(input())
 Type Casting int(), float(),
 str()
 Swap a, b = b, a
-Multiple Assignment a = b = c = 10'''
+Multiple Assignment a = b = c = 10
+'''
 print(123)

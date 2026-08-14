@@ -1,4 +1,5 @@
-'''Python Variables and Data Types –
+'''
+Python Variables and Data Types –
 Variables
 What is a Variable?
 A variable is a reserved memory location used to store data. It acts as a container that holds a
