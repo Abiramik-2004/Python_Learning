@@ -4,6 +4,7 @@ Complete Notes with Codes
 Conditional statements are used in Python to make decisions.
 They allow a program to execute different blocks of code depending on whether a condition is
 True or False.
+
 Types of conditional statements
 1. if statement
 2. if-else statement
