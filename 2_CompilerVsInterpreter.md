@@ -167,10 +167,12 @@ The user writes a Python program.
 Example:
 print("Hello")
 
+Output
+Hello
+
 Processing
 ----------
 ● Python Interpreter reads the source code.
 ● Converts it into Bytecode (.pyc).
 ● The Python Virtual Machine (PVM) executes the bytecode.
-Output
-Hello
+
