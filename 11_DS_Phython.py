@@ -63,7 +63,6 @@ A={
     "blood":"b+ve"
 }
 print(type(A))
-l=[1,2]
-h=[3,4]
-print(l+h)
-print(l*3)
+
+
+
