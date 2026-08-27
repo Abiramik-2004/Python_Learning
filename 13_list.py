@@ -1,0 +1,33 @@
+#  ✨List [ ]
+#     ● Ordered
+#     ● Mutable (can be modified)
+#     ● Allows duplicate values
+#     numbers = [1, 3, 5, "o"]
+#index: It is the position present in a list
+
+l=[1,2]
+h=[3,4]
+print(l+h) #[1, 2, 3, 4]
+print(l*3) #[1, 2, 1, 2, 1, 2]
+
+l=[1,2,3,4,5,6,7,8]
+max(l)
+min(l)
+sum(l)
+
+l=[1,1,2,7,3,4,5,6,8]
+l.append(9)
+l.extend([10,11])
+l.insert(7,7)
+print(l)
+print(l.index(3))
+l.remove(11)
+l.pop(9)
+print(l)
+print(l.count(1))
+print(l.sort())
+print(l.reverse())
+l.clear()
+print(l)
+
+
