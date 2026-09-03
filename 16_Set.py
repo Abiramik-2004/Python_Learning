@@ -96,3 +96,15 @@ print(result)
 result=s1^s2
 print(result)
 
+
+#DisJoint
+print(s1.isdisjoint(s2))
+
+#FrozenSet
+num=frozenset({1,2,3})
+
+#Subset & Superset
+A={1,2,3}
+B={1,2,3,4,5}
+print(A.issubset(B))
+print(B.issuperset(A))
