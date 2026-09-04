@@ -1,0 +1,9 @@
+dict={1:"Chennai",
+      2:"Coimbotore",
+      3:"Trichy",
+      4:"Cuddalore",
+      5:"Nammakal"}
+print(dict.pop(3))
+print(dict.popitem())
+dict.clear()
+print(dict)
