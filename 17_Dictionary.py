@@ -24,7 +24,7 @@ Adding a new item:
 Updating a value:
 -----------------
      var_name[Key]=value
-    
+   
 Get method in dictionary:
     get()--get the value by key
     keys()--get all the keys in a dictionary
@@ -47,8 +47,6 @@ len()--count items
 in--check if the key exists
 not in--check if a key doesn't exist
 del--delete an item or dictionary
-
-
 
 '''
 # Creation of Dictionary
@@ -103,6 +101,7 @@ print(dict)
 print(len(dict))
 dict.setdefault(1,"Unknown")
 print(dict[1])
+
 # Removing the element from the dictionary
 print(dict.pop(1))
 print(dict.popitem())
@@ -110,3 +109,4 @@ del dict[2]
 print(dict)
 dict.clear()
 print(dict)
+

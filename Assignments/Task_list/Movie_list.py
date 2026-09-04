@@ -5,7 +5,7 @@ while True:
     print("3. Remove the Movie")
     print("4. Count the Movies")
     print("5. Exit ")
-    choice=int(input("Enter the task: "))
+    choice=int(input("Enter the choice: "))
     if( choice==1):
         movie=input("Enter a movie: ")
         Movie_list.append(movie)
