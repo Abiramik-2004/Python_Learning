@@ -4,6 +4,3 @@ l.sort()
 print(l)
 l.sort(reverse=True)
 print(l)
-
-#  you need to store 1 to 6 by using, we need to printing calculate display  generate 5 numbers using range, after finding 
-

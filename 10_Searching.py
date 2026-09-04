@@ -2,7 +2,22 @@
 --------------
 It is the processes of seach an element from the collection 
 
-Algorithm:
+    ->Linear Search
+    ->Binary Search
+
+    LINEAR SEARCH:
+        Check element one by one from beginning until the target element is found
+        can be sorted or unsorted
+        Easy to implement
+        Best case:o(1)
+        worst case:o(n)
+
+
+    BINARY SEARCH:
+        Repeatedly divides a sorted list in a half and chect the target value to the mid value
+        must be sorted
+        Slightly more comples to implement
+
 
 '''
 
