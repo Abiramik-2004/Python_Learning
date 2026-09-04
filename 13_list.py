@@ -1,10 +1,40 @@
-#  ✨List [ ]
-#     ● Ordered
-#     ● Mutable (can be modified)
-#     ● Allows duplicate values
-#     numbers = [1, 3, 5, "o"]
-#index: It is the position present in a list
+'''
+    List:
+        It is a collectin which is used to store multiple values together
+        we can access the eleemts by index
+        It is ordered, mutable and allow duplicates
+        it supports indexing and slicing
+        it can contin different datatype
+    
+    empty list
+        l=[]
 
+    Indexing
+        n[0]
+
+    Adding element:
+    append()--adding values in a list
+    insert(ind,val)--adding element based by giving key and value
+    extend(l)--adding multiple elements through giving another list
+
+    Removing element:
+    remove(val)--remove element
+    pop()--removes last element
+    clear()--delete all the element
+    del:
+        del values[1]
+    
+    sort()--sorting element 
+    sort(reverse=True)--sorting in descending order
+
+    len()
+    max()
+    min()
+    sum()
+    reverse()
+
+
+'''
 l=[1,2]
 h=[3,4]
 print(l+h) #[1, 2, 3, 4]
