@@ -5,3 +5,5 @@ print("abiramiKanthasamy")
 l={"A":1,"B":2,"C":3}
 for B in l:
     print(l[B])
+b="abik"
+print(a==b)
