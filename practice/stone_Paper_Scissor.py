@@ -16,7 +16,7 @@ while flag:
             You=You+1
         else:
             print("You and computer put the same sign......")
-            Draw=Draw+1;
+            Draw=Draw+1
     elif s=="paper":
         if computer_choice=="scissors":
             print("You loss😓....best of luck")
@@ -26,7 +26,7 @@ while flag:
             You=You+1
         else:
             print("You and computer put the same sign......")
-            Draw=Draw+1;
+            Draw=Draw+1
     elif s=="scissors":
         if computer_choice=="rock":
             print("You loss😓....best of luck")
@@ -36,7 +36,7 @@ while flag:
             You=You+1
         else:
             print("You and computer put the same sign......")
-            Draw=Draw+1;
+            Draw=Draw+1
     else:
         print("Enterthe valid one")
     
