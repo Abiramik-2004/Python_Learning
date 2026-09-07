@@ -122,52 +122,6 @@ More projects will be added as I continue learning.
 
 ---
 
-## 📂 Repository Structure
-
-```text
-Python_Learning/
-│
-├── Basics/
-│   ├── variables.py
-│   ├── data_types.py
-│   ├── operators.py
-│   └── input_output.py
-│
-├── Control_Flow/
-│   ├── conditions.py
-│   ├── for_loop.py
-│   └── while_loop.py
-│
-├── Data_Structures/
-│   ├── strings.py
-│   ├── lists.py
-│   ├── tuples.py
-│   ├── sets.py
-│   └── dictionaries.py
-│
-├── Functions/
-│   ├── functions.py
-│   └── lambda.py
-│
-├── OOP/
-│   ├── classes_objects.py
-│   ├── inheritance.py
-│   └── polymorphism.py
-│
-├── Projects/
-│   ├── dictionary/
-│   ├── rock_paper_scissors/
-│   ├── course_management/
-│   ├── employee_management/
-│   └── contact_management/
-│
-└── README.md
-```
-
-> The folder structure may change as the repository grows.
-
----
-
 ## 🛠️ Technologies
 
 * **Python 3**
