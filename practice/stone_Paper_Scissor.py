@@ -38,7 +38,7 @@ while flag:
             print("You and computer put the same sign......")
             Draw=Draw+1
     else:
-        print("Enterthe valid one")
+        print("Enter the valid one")
     
     print("Do You want to continue?")
     t=input("Enter yes or no");

@@ -1,5 +1,5 @@
-print("------Dictionary Application------")
-print("------Letter Guide----------")
+print("-------Dictionary Application------")
+print("--------Letter Guide---------------")
 letter=( "A", "B", "C", "D", "E", "F",
     "G", "H", "I", "J", "K", "L",
     "M", "N", "O", "P", "Q", "R",
@@ -374,8 +374,3 @@ while True:
         break
     else:
         print("Enter the valid choice")
-
-
-
-
-

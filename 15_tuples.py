@@ -42,7 +42,6 @@ print(t[-1])
     tuple[::-1]
 
 
-
 '''
 t=(1,2)
 print(t+t)
