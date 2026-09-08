@@ -7,7 +7,8 @@
 
 '''
 #--->Single command
-
+from calculator import add
+print(c.add(1,2))
 n=5
 for i in range(5):
     for j in range(i+1):

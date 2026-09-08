@@ -14,5 +14,5 @@ def primeNum(n):
     else:
         print("Not a prime number")
 primeNum(5)
-primeNum(52)
-                
+primeNum(52)       
+

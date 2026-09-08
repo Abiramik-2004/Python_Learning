@@ -17,5 +17,6 @@ elif op==4:
 else:
     print("invalid operator")
 
-
+def add(a,b):
+    return a+b
 

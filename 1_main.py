@@ -1,3 +1,5 @@
+
+
 a="abik"
 print(a.capitalize())
 B=a[0].upper()

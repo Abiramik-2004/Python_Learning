@@ -35,3 +35,12 @@ create a list containing duplicate numbers and find how many times a particular 
 l=[1,2,2,3,2,4,5,6,7,8,1]
 for i in set(l):
     print(i,"->",l.count(i))
+'''
+student marks calculator---createa python project called student marks calculator using using modules and packages
+-->calculator.py with all the function
+-->Create a package with student containing a module details.py to store and display all the data
+
+we have to take input from the user student name and student park
+
+
+'''
