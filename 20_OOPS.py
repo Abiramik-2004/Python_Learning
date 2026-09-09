@@ -68,3 +68,55 @@ car = Car("Honda", "Civic", 2022)
 print(car.make)
 print(car.model)
 print(car.year)
+
+'''
+Instance Attribute:
+------------------
+    An instance attribute is the data which is belongs to an particuular object
+'''
+class Student:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+student1 = Student("Abirami", 22)
+student2 = Student("Priya", 21)
+print(student1.name)
+print(student2.name)
+
+'''
+Class Attribute:
+------------------
+    A Class attribute is the data which is belongs to a class and is shared by all object
+'''
+class Student:
+    college="ACGCET"
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+student1 = Student("Abirami", 22)
+student2 = Student("Priya", 21)
+print(student1.name)
+print(student2.name)
+print(student1.college)
+print(student2.college)
+
+''''
+SELF:
+-----
+    This is one of the most important concepts in python OOP
+    self means the current object
+
+Pattern:
+---------
+    class ClassName:
+
+        def __init__(self, data):
+            self.data = data
+
+        def method(self):
+            print(self.data)
+    object1 = ClassName(value)
+    object1.method()
+'''
+
