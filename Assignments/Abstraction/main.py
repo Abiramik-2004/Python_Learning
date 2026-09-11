@@ -1,0 +1,11 @@
+from Calculator import Addition, Subraction, Multiplication, Division
+a=int(input("Enter the number1: "))
+b=int(input("Enter the number2: "))
+add=Addition()
+sub=Subraction()
+mul=Multiplication()
+div=Division()
+print("Addition: ",add.calculate(a,b))
+print("Subraction: ",sub.calculate(a,b))
+print("Multiplication: ",mul.calculate(a,b))
+print("Division: ",div.calculate(a,b))
