@@ -36,7 +36,7 @@ print(t[-1])
 
     Membership operator:
     in
-    nt in
+    not in
 
     Reversing a tuple
     tuple[::-1]
@@ -46,8 +46,10 @@ print(t[-1])
 t=(1,2)
 print(t+t)
 print(t*5)
-
+print(t[::-1])
 print(1 in t)
 print(5 not in t)
 print(5 in t)
 
+t=(1,)
+print(type(t))
