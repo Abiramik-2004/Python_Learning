@@ -33,11 +33,12 @@ Ds in python:
     Stack
     Tree
 
-Phython supports: Single quotes, double quotes, Triple quotes also
+Phython supports: Single quotes, double quotes, Triple quotes also for the string 
 
 Time Complexity:
 ----------------
     how much time the algorithm takes to execute a input size
+    
 Space Complexity:
 -----------------
     how much memory needed by the algorithm takes to execute the input size
