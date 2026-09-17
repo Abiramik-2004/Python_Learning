@@ -119,4 +119,40 @@ Pattern:
     object1 = ClassName(value)
     object1.method()
 '''
+'''
+OOPS:
+OOPS stands for Object oriented Programming System. 
+It connects the programming word and the real word
 
+Procedural Programming and Object Oriented programming
+=========================================================
+
+Procedural Programming        Object Oriented Programming
+----------------------        ---------------------------
+-> It is Organized mainly     -> Program is Organized around classes and objects
+around function/Procedure
+
+-> Data and Function may      -> Data and mehod can be grouped inside classes
+be seprate
+
+-> Often convinent foe small  -> Useful for organizing larger and reusable systems
+ and simple programs
+
+ Attribute:
+ ---------
+    Data/propery associated with a class or object
+
+Method:
+------
+    Functions defined iside the class 
+
+self
+----
+    Denotes the the current object in an instance method
+
+__init__():
+-----------
+    Commonly used constructors/initializer.
+
+
+'''
