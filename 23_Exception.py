@@ -24,3 +24,15 @@ if age<18:
 
 else:
     print("eligibe")
+#-----------------------
+class insufficientBalanceError(Exception):
+    pass
+balance=int(input("Enter the balance amount: "))
+withdrawl=int(input("Enter the amount you want to withdrawl: "))
+if balance<withdrawl:
+    try:
+        raise insufficientBalanceError("Amount is insufficient")
+    except:
+        print("Please Enter the Sufficient amount to withdraw")
+else:
+    print("Amount is withdrawn...")
