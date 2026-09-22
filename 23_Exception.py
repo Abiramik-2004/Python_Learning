@@ -37,3 +37,32 @@ if balance<withdrawl:
 else:
     print("Amount is withdrawn...")
 
+#----------------------------------------
+
+'''Exception:
+    Exception is an abnormal stop or sudden stop while occuring in a execution of a program.
+
+Error vs Exeption
+-----------------
+            Error                 |   Exception
+            -----                 | ----------
+Often prevents code for executing | Occurs during execution
+                                  |
+May nees correction before running|  Can often be handled with try/Except
+                                  |
+
+Exception Handling Keywords:
+----------------------------
+    try-except-else, finally, and raise
+
+Try:
+----
+    This block is responsible for exception occuring.
+
+Except:
+------
+    The except block handles a particular exception.
+
+
+
+    '''

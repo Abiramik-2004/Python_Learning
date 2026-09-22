@@ -1,6 +1,6 @@
 num1=int(input("enter num1: "))
 num2=int(input("enter num2: "))
-print("choose operator: \n1.Addition\n2.Subraction\n3.Multiplication\n4.Division" \
+print("choose operator: \n1.Addition\n2.Subraction\n3.Multiplication\n4.Division" 
 "")
 op=int(input("Enter the option: "))
 if op==1:
