@@ -64,5 +64,81 @@ Except:
     The except block handles a particular exception.
 
 
+'''
+# MultipleExceptBlock
+try:
+    num=int(input("Enter the number: "))
+    res=100/num
+except ValueError:
+    print("Please enter a valid number....")
+except ZeroDivisionError:
+    print("Number cannot be divided by zero")
 
-    '''
+
+# Multiple Exception in One except
+try:
+    num=int(input("Enter the Number: "))
+    res=100/num
+except (ValueError, ZeroDivisionError):
+    print("Invalid input...")
+
+'''
+Else Block:
+-----------
+    The else block runs only when the try block completes without an exception.
+
+'''
+
+try:
+    n=int(input("Enter the number: "))
+    res=100/num
+except ZeroDivisionError:
+    print("Cannot divide by zero...")
+else:
+    print("Result: ",res)
+
+'''
+Finally Block:
+-------------
+    The finally block runs whether an exception ocuurs or not. 
+
+
+'''
+try:
+    result=10/0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Execution completed")
+
+
+#Getting Exeption information with as
+try:
+    res=10/0
+except ZeroDivisionError as e:
+    print("Error:",e)
+
+'''
+Common Built-in Exception:
+--------------------------
+✨ ZeroDivisionError=> Division by zero
+✨ ValueError=>Correct type but ivalid value/form
+✨ TypeError=>Incompatible data types
+✨ IndexError=>Invalid Sequence index
+✨ KeyError=>Missing dictionary key
+✨ FileNotFoundError=> Requested file does not exist
+'''
+#-----------------------------------
+'''19. Complete try-except-else-finally Structure
+try:
+ # risky code
+ pass
+except ExceptionType as e:
+ # error handling
+ pass
+else:
+ # runs when no exception occurs
+ pass
+finally:
+ # always runs
+ pass'''
