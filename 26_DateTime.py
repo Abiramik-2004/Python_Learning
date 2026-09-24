@@ -17,4 +17,7 @@ print("hours: ",now.hour)
 print("minutes: ",now.minute)
 print("seconds: ",now.second)
 print("microseconds: ",now.microsecond)
-
+#To retrieve the formatted string
+print(now.strftime("%d-%m-%y"))
+print(now.strftime("%d-%B-%y")) #24-September-26
+print(now.strftime("%A-%m-%y")) #Thursday-09-26
