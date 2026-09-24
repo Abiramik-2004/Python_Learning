@@ -7,6 +7,17 @@ print("Year: ",today.year)
 print("month: ",today.month)
 print("day: ",today.day)
 #---------------------------------
+
+from datetime import time
+t=time(16,29,10,5)
+print(t)
+print("hours: ",t.hour)
+print("minutes: ",t.minute)
+print("seconds: ",t.second)
+print("microseconds: ",t.microsecond)
+
+#-------------------------------------
+
 from datetime import datetime
 now=datetime.now()
 print (now)
@@ -21,3 +32,9 @@ print("microseconds: ",now.microsecond)
 print(now.strftime("%d-%m-%y"))
 print(now.strftime("%d-%B-%y")) #24-September-26
 print(now.strftime("%A-%m-%y")) #Thursday-09-26
+
+
+from datetime import datetime
+value=input("Enter date in DD-MM-YYYY Format ")
+d=datetime.strptime(value,"%d-%m-%Y")
+print(d.strftime("%A-%B-%Y"))
